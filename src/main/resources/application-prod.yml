@@ -1,0 +1,16 @@
+#生产环境
+server:
+  servlet:
+    context-path: /boottest
+  port: 8081
+
+  name: Jerry
+  age: 23
+  hobby: tennis
+
+  content: "name: ${name} age: ${age}"
+
+person:
+  name: David
+  age: 23
+  hobby: table_tennis

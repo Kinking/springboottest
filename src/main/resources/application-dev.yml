@@ -1,0 +1,25 @@
+#开发环境
+server:
+  servlet:
+    context-path: /boottest
+  port: 8081
+
+  name: Jerry
+  age: 23
+  hobby: tennis
+
+  content: "name: ${name} age: ${age}"
+
+person:
+  name: Jerry_new
+  age: 23_new
+  hobby: tennis_new
+
+my:
+  name: forezp
+  age: 12
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi, i'm ${my.name}
